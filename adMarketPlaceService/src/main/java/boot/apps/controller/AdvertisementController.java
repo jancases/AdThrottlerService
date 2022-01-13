@@ -43,7 +43,7 @@ public class AdvertisementController {
 	public ResponseEntity<ResponseHelper> requestChange(HttpServletRequest request) {
 		Instant requestTime = Instant.now();
 		try {
-			Metadata metadata = new Metadata("Response for change endpoint" , "/getAds", 200, requestTime);
+			Metadata metadata = new Metadata("Response for getAds endpoint" , "/getAds", 200, requestTime);
 			
 			AdvertisementResponse adResponse = new AdvertisementResponse(appConfig.getProperty("app.config.adType"),appConfig.getProperty("app.config.category"), appConfig.getProperty("app.config.imageUrl"));
 			
