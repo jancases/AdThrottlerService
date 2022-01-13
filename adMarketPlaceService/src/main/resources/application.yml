@@ -1,0 +1,5 @@
+app:
+  config:
+    adType: image
+    category: automobile
+    imageUrl: https://www.extremetech.com/wp-content/uploads/2019/12/SONATA-hero-option1-764A5360-edit.jpg
